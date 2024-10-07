@@ -32,15 +32,14 @@ This project uses [https://tailwindcss.com/docs/installation](Tailwind CSS) for 
 
 To learn more about Next.js, take a look at the following resources:
 
-- [https://legacy.reactjs.org/docs/getting-started.html](React Documentation) - Learn about React features and APIs.
+- [React Documentation](https://legacy.reactjs.org/docs/getting-started.html) - Learn about React features and APIs.
 - [Vite Documentation](https://vite.dev/guide/) - Learn about Vite and how to set up a Vite project.
-- [https://tailwindcss.com/docs/installation](Tailwind CSS Documentation) - Learn about Tailwind CSS and its utility-first approach.
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - Learn about Tailwind CSS and its utility-first approach.
+
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your React app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
