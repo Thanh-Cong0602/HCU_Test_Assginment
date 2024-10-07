@@ -22,19 +22,19 @@ pnpm dev
 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying the relevant files in the src directory. The page auto-updates as you edit the files.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [https://tailwindcss.com/docs/installation](Tailwind CSS) for styling and responsive design. Make sure to check the Tailwind documentation for more details on how to use it effectively.
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
+- [https://legacy.reactjs.org/docs/getting-started.html](React Documentation) - Learn about React features and APIs.
+- [Vite Documentation](https://vite.dev/guide/) - Learn about Vite and how to set up a Vite project.
+- [https://tailwindcss.com/docs/installation](Tailwind CSS Documentation) - Learn about Tailwind CSS and its utility-first approach.
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
