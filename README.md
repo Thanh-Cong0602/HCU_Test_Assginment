@@ -26,7 +26,7 @@ Open [http://localhost:5173](http://localhost:5173) with your browser to see the
 
 You can start editing the page by modifying the relevant files in the src directory. The page auto-updates as you edit the files.
 
-This project uses [https://tailwindcss.com/docs/installation](Tailwind CSS) for styling and responsive design. Make sure to check the Tailwind documentation for more details on how to use it effectively.
+This project uses [Tailwind CSS](https://tailwindcss.com/docs/installation) for styling and responsive design. Make sure to check the Tailwind documentation for more details on how to use it effectively.
 
 ## Learn More
 
@@ -36,10 +36,12 @@ To learn more about Next.js, take a look at the following resources:
 - [Vite Documentation](https://vite.dev/guide/) - Learn about Vite and how to set up a Vite project.
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - Learn about Tailwind CSS and its utility-first approach.
 
-
 ## Deploy on Vercel
 
 The easiest way to deploy your React app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
+## Features Implemented
 
-
+- Create and read tasks.
+- Mark tasks as complete/incomplete.
+- Filter tasks based on their completion status: All, Completed, Incomplete.
