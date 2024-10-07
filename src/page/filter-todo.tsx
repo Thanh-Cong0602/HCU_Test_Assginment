@@ -1,4 +1,5 @@
 import React from 'react'
+import { FilterType } from '~/utils/enum.utils'
 
 interface FilterTodoProps {
   filter: string
@@ -8,33 +9,33 @@ interface FilterTodoProps {
 const FilterTodo: React.FC<FilterTodoProps> = ({ filter, setFilter }) => {
   return (
     <div className='my-3 p-2 bg-white rounded-lg shadow-lg'>
-      <p>Filter Result:</p>
+      <p className='font-bold'>Filter:</p>
       <div className='w-full h-10  flex items-center'>
         <div className='flex gap-3 items-center'>
           <label>
             <input
               type='radio'
-              value='all'
-              checked={filter === 'all'}
-              onChange={() => setFilter('all')}
+              value={FilterType.ALL}
+              checked={filter === FilterType.ALL}
+              onChange={() => setFilter(FilterType.ALL)}
             />
             All
           </label>
           <label>
             <input
               type='radio'
-              value='completed'
-              checked={filter === 'completed'}
-              onChange={() => setFilter('completed')}
+              value={FilterType.COMPLETED}
+              checked={filter === FilterType.COMPLETED}
+              onChange={() => setFilter(FilterType.COMPLETED)}
             />
             Completed
           </label>
           <label>
             <input
               type='radio'
-              value='incompleted'
-              checked={filter === 'incompleted'}
-              onChange={() => setFilter('incompleted')}
+              value={FilterType.INCOMPLETED}
+              checked={filter === FilterType.INCOMPLETED}
+              onChange={() => setFilter(FilterType.INCOMPLETED)}
             />
             Incompleted
           </label>
